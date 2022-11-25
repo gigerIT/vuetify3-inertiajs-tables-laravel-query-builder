@@ -1,7 +1,7 @@
 <template>
   <OnClickOutside :do="hide">
     <div class="relative">
-      <button
+      <v-btn
         ref="button"
         type="button"
         :dusk="dusk"
@@ -12,7 +12,7 @@
         @click.prevent="toggle"
       >
         <slot name="button" />
-      </button>
+      </v-btn>
 
       <div
         v-show="opened"

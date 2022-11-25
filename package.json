@@ -29,7 +29,8 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "lodash-es": "^4.17.21",
-    "qs": "^6.10.5"
+    "qs": "^6.10.5",
+    "vuetify": "^3.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.0",
